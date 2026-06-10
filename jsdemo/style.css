@@ -1,12 +1,21 @@
 div.user {
-    border: 3px solid black;
+    border: 5px solid black;
     padding: 15px;
+    font-size: 21px;
+    font-weight: 700;
 }
 div.user div {
+    font-size: 35px;
     cursor: pointer;
     background: #29817e;
     border: 1px double #4eefea;
 }
+
+div.user p {
+    cursor: pointer;
+    background: #f8d806;
+    border: 1px double #ff0000;
+}
 div.user.selected {
-    background-color: rgb(196, 78, 228);
+    background-color: rgb(228, 78, 193);
 }
